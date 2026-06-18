@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 성장 아카이브 — Anthropic · Dario Amodei 읽기 노트</title>
+  <meta name="description" content="Anthropic 블로그와 Dario Amodei의 글을 원문 링크·한글 요약·뉴스레터 형태로 정리한 개인 학습 아카이브." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#/">
+        <span class="brand-mark" aria-hidden="true">◆</span>
+        <span class="brand-text">AI 성장 아카이브</span>
+      </a>
+      <nav class="site-nav" aria-label="주요">
+        <a href="#/">글 목록</a>
+        <a href="#/about">소개</a>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="다크 모드 전환">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <div id="view"><!-- 뷰가 여기에 렌더링됩니다 --></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>
+        이곳의 요약·논평은 학습용으로 직접 작성한 글입니다. 원문의 저작권은 각 저자와 Anthropic, PBC에 있습니다.
+        전문은 항상 <strong>원문 링크</strong>를 통해 읽어 주세요.
+      </p>
+      <p class="muted">개인 학습 아카이브 · 비상업적</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <script src="./js/app.js" type="module"></script>
+</body>
+</html>

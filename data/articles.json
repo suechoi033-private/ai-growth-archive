@@ -1,0 +1,45 @@
+{
+  "_comment": "새 글 추가 방법: 이 배열에 객체 하나를 추가하면 됩니다. id는 고유해야 하며, 전문(全文)·전체 번역은 넣지 마세요(저작권). 요약/핵심/짧은 인용만 둡니다.",
+  "articles": [
+    {
+      "id": "anthropic-fable-mythos-suspension-2026-06",
+      "source": "anthropic",
+      "title_ko": "미국 정부의 Fable 5·Mythos 5 접근 중단 지시에 대한 입장",
+      "title_en": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+      "url": "https://www.anthropic.com/news/statement-us-government-directive-fable-mythos",
+      "published_date": "2026-06-12",
+      "added_date": "2026-06-18",
+      "reading_minutes": 5,
+      "tags": ["정책", "안전성", "정부규제", "사이버보안"],
+      "summary_oneline_ko": "미 정부가 국가안보를 이유로 Fable 5·Mythos 5의 외국인 접근 중단을 지시했고, Anthropic은 따르되 그 근거가 과하다며 공개 반박했다.",
+      "key_points_ko": [
+        "미 정부는 수출통제 권한을 들어 모든 외국 국적자의 Fable 5·Mythos 5 접근 중단을 지시했고, 규정 준수를 위해 전 고객 대상으로 두 모델이 즉시 비활성화됐다(다른 모델은 영향 없음).",
+        "지시의 배경은 모델을 '탈옥(jailbreak)'하는 기법으로 보이지만, Anthropic은 그 기법으로 드러난 취약점이 경미하고 다른 공개 모델에서도 우회 없이 발견 가능한 수준이라고 반박한다.",
+        "Anthropic은 완벽한 탈옥 저항은 현재 누구도 불가능하다고 보고, '다층 방어 + 모니터링' 전략을 견지하며, 좁은 잠재적 탈옥 하나로 수억 명에게 배포된 모델을 회수하는 기준은 사실상 모든 신규 모델 배포를 막을 것이라고 주장한다."
+      ],
+      "summary_newsletter_ko": "**왜 중요한가** — 정부가 상용 AI 모델의 배포를 사후에 강제로 중단시킨 첫 사례급 사건입니다. '국가가 안전하지 않은 배포를 막을 수 있어야 한다'는 원칙과, '그 절차가 투명·공정·기술적 근거에 기반해야 한다'는 원칙이 정면으로 부딪힌 장면이에요.\n\n**무슨 일이 있었나** — 미 정부가 국가안보를 근거로 외국 국적자(외국인 직원 포함) 전원의 Fable 5·Mythos 5 접근 중단을 지시했고, Anthropic은 규정을 지키기 위해 전 고객 대상으로 두 모델을 즉시 껐습니다. 정부가 든 근거는 특정 코드베이스를 읽혀 결함을 찾게 하는 식의 좁은 탈옥으로 보이는데, Anthropic은 그 정도 역량은 GPT-5.5 등 다른 모델에도 널리 있고 방어자들이 매일 쓰는 수준이라 반박합니다.\n\n**내 학습 포인트** — ① '안전'은 모델 자체 성능만이 아니라 *거버넌스 절차*의 문제라는 것. ② 완벽한 탈옥 저항이 불가능하다는 전제 위에서 '좁게 만들기 + 비싸게 만들기 + 모니터링'이라는 현실적 방어 설계를 어떻게 정당화하는지. ③ 기업이 규제에 따르면서도 공개적으로 이견을 남기는 커뮤니케이션 방식. 규제·안전·배포의 삼각관계를 생각할 때 두고두고 참고할 사례입니다.",
+      "quote_en": "We are complying with the government's legal directive ... However, we disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people.",
+      "quote_ko": "우리는 정부의 법적 지시를 준수하고 있다. 그러나 좁은 잠재적 탈옥의 발견이 수억 명에게 배포된 상용 모델을 회수할 사유가 되어야 한다는 데에는 동의하지 않는다."
+    },
+    {
+      "id": "dario-machines-of-loving-grace-2024-10",
+      "source": "dario",
+      "title_ko": "사랑의 은총을 입은 기계들 — AI가 세상을 어떻게 더 낫게 만들 수 있는가",
+      "title_en": "Machines of Loving Grace: How AI Could Transform the World for the Better",
+      "url": "https://darioamodei.com/machines-of-loving-grace",
+      "published_date": "2024-10-11",
+      "added_date": "2026-06-18",
+      "reading_minutes": 50,
+      "tags": ["비전", "AI긍정론", "건강", "경제발전", "거버넌스"],
+      "summary_oneline_ko": "Anthropic CEO Dario Amodei가 위험만 강조되던 담론을 넘어, 강력한 AI가 가져올 수 있는 구체적이고 낙관적인 미래상을 다섯 영역으로 그려낸 장문 에세이.",
+      "key_points_ko": [
+        "그는 의도적으로 위험이 아니라 '잘 풀렸을 때'의 모습을 그린다. 다만 막연한 유토피아가 아니라, 강력한 AI가 등장한 뒤 5~10년 안에 일어날 수 있는 구체적 변화를 가정한다.",
+        "다섯 축으로 미래를 구조화한다: ① 생물학·건강(질병 정복, 수명 연장) ② 신경과학·정신건강 ③ 경제발전과 빈곤 ④ 평화와 거버넌스 ⑤ 일과 삶의 의미.",
+        "핵심 비유는 '한 데이터센터 안의 천재들의 나라' — 수백만의 초인적 연구자가 동시에 일하는 상태이며, 그럼에도 진보의 속도는 물리적·사회적 마찰로 제약된다고 본다."
+      ],
+      "summary_newsletter_ko": "**왜 중요한가** — AI 위험론이 담론을 지배하던 시기에, 안전을 가장 강조해 온 인물 중 하나인 Dario Amodei가 일부러 '좋은 시나리오'를 진지하게 그린 글입니다. 낙관을 팔기 위해서가 아니라, *무엇을 위해 위험을 감수하는가*를 분명히 하려는 시도예요.\n\n**핵심 내용** — 그는 강력한 AI를 '데이터센터 안에 모인 천재들의 나라'에 비유하고, 그 힘이 풀릴 수 있는 다섯 영역(건강, 정신건강, 경제, 평화·거버넌스, 일의 의미)을 하나씩 짚습니다. 특히 생물학에서 '압축된 21세기' — 향후 50~100년치 의학 진보를 5~10년에 — 가 가능할 수 있다고 봅니다. 동시에 AI만으로 모든 게 빨라지지는 않으며, 임상시험·제도·인간의 신뢰 같은 마찰이 속도를 정한다는 점도 분명히 합니다.\n\n**내 학습 포인트** — ① 비전을 말할 때 '막연한 좋음'이 아니라 영역별 메커니즘으로 쪼개는 사고법. ② 낙관과 신중함을 동시에 쥐는 태도(좋은 결과는 자동이 아니라 '쟁취해야 하는 것'). ③ 기술 변화의 병목이 기술이 아니라 사회·제도라는 통찰. 내 분야의 미래를 그릴 때 그대로 빌려올 수 있는 프레임입니다.",
+      "quote_en": "I think and talk a lot about the risks of powerful AI ... but ... I think that most people are underestimating just how radical the upside of AI could be.",
+      "quote_ko": "나는 강력한 AI의 위험을 자주 말한다. 그러나 대부분의 사람들이 AI가 가져올 '좋은 쪽'의 잠재력이 얼마나 급진적인지를 과소평가하고 있다고 생각한다."
+    }
+  ]
+}
