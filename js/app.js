@@ -375,13 +375,6 @@ function renderMembership() {
         </div>
       </div>
 
-      <div class="member-hr">
-        <h3>💼 HR 실무자 인증 할인 — 20%</h3>
-        <p>기업 인사담당자임을 명함으로 인증하면 <b>월 3,900원 / 연 29,000원</b>.</p>
-        <!-- TODO(운영): 결제링크 도입 시 mailto 교체 -->
-        <a class="btn-primary" href="mailto:sue.choi033@gmail.com?subject=%5B%EB%8F%85%EC%84%9C%20%ED%81%90%EB%A0%88%EC%9D%B4%EC%85%98%5D%20HR%20%EC%9D%B8%EC%A6%9D%20%ED%95%A0%EC%9D%B8%20%EC%8B%A0%EC%B2%AD&body=%EB%AA%85%ED%95%A8%20%EC%82%AC%EC%A7%84%EC%9D%84%20%EC%B2%A8%EB%B6%80%ED%95%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94.">명함 첨부해 인증 신청</a>
-      </div>
-
       <div class="member-join">
         <h3>가입하기</h3>
         <p class="muted">신청하면 결제 안내와 함께 멤버십 코드를 보내드립니다.</p>
